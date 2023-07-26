@@ -44,4 +44,20 @@ nav {
 nav a{
     text-decoration: none;
     color: var(--color2);
+    margin: 7px;
+    padding: 5px;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: var(--color2);
+    color: var(--color3);
+    font-weight: bolder;
+    border-radius: 5px;
+}
+main {
+    background-color: var(--color2);
+    width: 970px;
+    padding: 25px;
+    margin: auto;
+    text-align: justify;
 }
