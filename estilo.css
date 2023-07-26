@@ -106,6 +106,8 @@ picture{
 main ol {
     list-style-position: inside;
 }
+main picture{
+}
 #sobremesa-main{
     background-color: var(--sobremessa1);
 }
