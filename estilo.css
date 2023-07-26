@@ -9,8 +9,14 @@
     --color0: #8C2016;
     --color1: #A66B37;
     --color2: #F2CC85;
-    --color3: #465902;
+    --color3: #5b7302;
     --color4: #F26D9E;
+
+    --sobremessa0: #FF99AC;
+    --sobremessa1: #F5E8D0;
+    --sobremessa2: #906813;
+    --sobremessa3: #B0C8E8;
+    --sobremessa4: #F7F2F2;
 }
 *{
     margin: 0px;
@@ -20,6 +26,9 @@
 }
 body{
     background-color: var(--color3);
+}
+#sobremesa-body{
+    background-color: var(--sobremessa3);
 }
 header{
     background-color: var(--color0);
@@ -37,6 +46,13 @@ header p{
     font-size: 25px;
     color: var(--color2);
 }
+.sobremesa-header{
+    background-color: var(--sobremessa0);
+}
+.sobremesa-header p {
+    color: var(--sobremessa2);
+}
+
 nav {
     background-color: var(--color0);
     height: 40px;
@@ -55,6 +71,13 @@ nav a:hover{
     font-weight: bolder;
     border-radius: 5px;
     transition: .5s;
+}
+.sobremesa-a{
+    color: var(--sobremessa2);
+}
+.sobremesa-a:hover{
+    background-color: var(--sobremessa3);
+    color: var(--sobremessa0);
 }
 main {
     background-color: var(--color2);
@@ -78,6 +101,9 @@ main p {
 main ol {
     list-style-position: inside;
 }
+#sobremesa-main{
+    background-color: var(--sobremessa1);
+}
 aside{
     background-color: var(--color1);
     margin: 20px;
@@ -95,4 +121,21 @@ aside h1{
 }
 aside ul {
     list-style-position: inside;
+}
+footer{
+    background-color: var(--color0);
+    text-align: center;
+}
+.sobremesa-footer{
+    background-color: var(--sobremessa0);
+}
+footer nav {
+    height: 10px;
+}
+.contato-doce{
+ color: #165cb8;
+}
+.contato-doce:hover {
+    background-color: var(--sobremessa3);
+    color: #b71450;
 }

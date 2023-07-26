@@ -7,21 +7,20 @@
 
     <title>Menu do dia</title>
     <link rel="shortcut icon" href="./imagens/ico-cozinha.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./estilo-sobremessa.css">
+    <link rel="stylesheet" href="./estilo.css">
 </head>
 
-<body>
-    <header id="sobremesa-header">
+<body id="sobremesa-body">
+    <header class="sobremesa-header">
         <h1>Menu do dia</h1>
         <p>O toque final perfeito para as suas refeições: nossas sobremesas.</p>
     </header>
-    <nav>
-        <a href="./index.html" target="_self" rel="prev">Home</a>
-        <a href="#">Bebidas</a>
-        <a href="#">Lanches</a>
-        <a href="#"> Pães e Bolos</a>
+    <nav class="sobremesa-header">
+        <a href="./index.html" target="_self" rel="prev" class="sobremesa-a">Home</a>
+        <a href="./lanches.html" target="_self" rel="next" class="sobremesa-a">Lanches</a>
+        <a href="./pao-bolo.html" target="_self" rel="next" class="sobremesa-a"> Pães e Bolos</a>
     </nav>
-    <main>
+    <main id="sobremesa-main">
         <section>
             <article>
                 <h2>Brownie de Chocolate</h2>
@@ -242,6 +241,13 @@
             </article>
         </section>
     </main>
+    <footer class="sobremesa-footer">
+        <p>Site criado por Raíana Aguiar com o objetivo de aprender programação.</p>
+        <nav class="sobremesa-footer">
+            <a href="https://www.linkedin.com/in/ra%C3%ADana-aguiar-842846276/" target="_blank" class="contato-doce"> Linkedin</a>
+            <a href="https://github.com/thlaina" target="_blank" class="contato-doce">GitHub</a>
+        </nav>
+    </footer>
 </body>
 
 </html>
