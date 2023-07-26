@@ -33,6 +33,7 @@ body{
 header{
     background-color: var(--color0);
     text-align: center;
+    max-width: 100%;
     height: 200px;
     font-family:  Helvetica, sans-serif;
 }
@@ -81,7 +82,8 @@ nav a:hover{
 }
 main {
     background-color: var(--color2);
-    width: 970px;
+    max-width: 850px;
+    min-width: 400px;
     padding: 25px;
     margin: auto;
     text-align: justify;
@@ -97,6 +99,9 @@ main h2{
 }
 main p {
     text-indent: 15px;
+}
+picture{
+
 }
 main ol {
     list-style-position: inside;
