@@ -16,6 +16,7 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+
 }
 body{
     background-color: var(--color3);
@@ -53,6 +54,7 @@ nav a:hover{
     color: var(--color3);
     font-weight: bolder;
     border-radius: 5px;
+    transition: .5s;
 }
 main {
     background-color: var(--color2);
@@ -60,4 +62,37 @@ main {
     padding: 25px;
     margin: auto;
     text-align: justify;
+    line-height: 1.5em;
+}
+main article{
+    margin: 15px;
+    padding: 5px;
+}
+main h2{
+    font-family:  'Caveat', cursive;
+    font-size: 28px;
+}
+main p {
+    text-indent: 15px;
+}
+main ol {
+    list-style-position: inside;
+}
+aside{
+    background-color: var(--color1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+aside h1{
+    background-color: var(--color0);
+    text-align: center;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 15px 15px 15px;
+    border-radius: 5px 5px 0px 0px;
+}
+aside ul {
+    list-style-position: inside;
 }
